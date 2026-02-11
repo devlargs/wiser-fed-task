@@ -5,6 +5,8 @@ export type Job = {
   brand: string;
   location: string;
   link: string;
+  accentColor: string;
+  logoUrl: string;
 };
 
 export const mockJobs = [
@@ -15,14 +17,18 @@ export const mockJobs = [
     brand: "NEXT",
     location: "Luton, Bedfordshire",
     link: "/jobs/team-member-stock-luton",
+    accentColor: "#000000",
+    logoUrl: "/images/next.png",
   },
   {
     id: "job-002",
     title: "Sales Associate – Victoria's Secret",
     team: "Retail",
-    brand: "Victoria’s Secret",
+    brand: "Victoria's Secret",
     location: "Plymouth, Devon",
     link: "/jobs/sales-associate-vs-plymouth",
+    accentColor: "#F4C6CF",
+    logoUrl: "/images/victorias-secret.png",
   },
   {
     id: "job-003",
@@ -31,6 +37,8 @@ export const mockJobs = [
     brand: "JOULES",
     location: "Leicester, Leicestershire",
     link: "/jobs/assistant-buyer-joules",
+    accentColor: "#F3E28E",
+    logoUrl: "/images/joules.png",
   },
   {
     id: "job-004",
@@ -39,6 +47,8 @@ export const mockJobs = [
     brand: "GAP",
     location: "Trafford, Lancashire",
     link: "/jobs/ecommerce-trading-manager-gap",
+    accentColor: "#0C1C3E",
+    logoUrl: "/images/gap.png",
   },
   {
     id: "job-005",
@@ -47,6 +57,8 @@ export const mockJobs = [
     brand: "NEXT",
     location: "Tottenham Court Road, London",
     link: "/jobs/assistant-merchandiser-home-textiles",
+    accentColor: "#000000",
+    logoUrl: "/images/next.png",
   },
   {
     id: "job-006",
@@ -55,6 +67,8 @@ export const mockJobs = [
     brand: "LIPSY",
     location: "London, London",
     link: "/jobs/assistant-merchandiser-lipsy",
+    accentColor: "#E6CCC5",
+    logoUrl: "/images/lipsy.png",
   },
   {
     id: "job-007",
@@ -63,6 +77,8 @@ export const mockJobs = [
     brand: "NEXT",
     location: "Colombo, Sri Lanka",
     link: "/jobs/operations-manager-cloud",
+    accentColor: "#000000",
+    logoUrl: "/images/next.png",
   },
   {
     id: "job-008",
@@ -71,6 +87,8 @@ export const mockJobs = [
     brand: "Cath Kidston",
     location: "London, London",
     link: "/jobs/assistant-merchandiser-cath-kidston",
+    accentColor: "#C59289",
+    logoUrl: "/images/cath-kidston.png",
   },
   {
     id: "job-009",
@@ -79,6 +97,8 @@ export const mockJobs = [
     brand: "JOULES",
     location: "Market Harborough, Leicestershire",
     link: "/jobs/assistant-merchandiser-joules-menswear",
+    accentColor: "#F3E28E",
+    logoUrl: "/images/joules.png",
   },
   {
     id: "job-010",
@@ -87,5 +107,7 @@ export const mockJobs = [
     brand: "MADE",
     location: "London, London",
     link: "/jobs/product-manager-made",
+    accentColor: "#BEFF03",
+    logoUrl: "/images/made.png",
   },
 ];
