@@ -165,6 +165,60 @@
   object-fit: contain;
 }
 
+/* Small desktop / Large tablet breakpoint */
+@media (max-width: 1024px) {
+  .row {
+    padding: 20px 16px;
+
+    &:hover .accentLine {
+      width: calc(100% - 150px - 8px - 16px);
+    }
+  }
+
+  .content {
+    gap: 8px;
+  }
+
+  .jobInfo {
+    width: auto;
+    min-width: 200px;
+    max-width: 250px;
+  }
+
+  .jobTitle {
+    font-size: 17px;
+  }
+
+  .jobTeam {
+    font-size: 15px;
+  }
+
+  .logoContainer {
+    width: 100px;
+    height: 28px;
+    flex-shrink: 1;
+  }
+
+  .location {
+    width: auto;
+    min-width: 140px;
+    max-width: 160px;
+  }
+
+  .locationText {
+    font-size: 15px;
+  }
+
+  .viewJobButton {
+    width: 150px;
+    padding: 8px 20px;
+  }
+
+  .viewJobText {
+    font-size: 15px;
+  }
+}
+
 /* Tablet breakpoint */
 @media (max-width: 768px) {
   .row {
